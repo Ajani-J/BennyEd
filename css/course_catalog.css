@@ -1,0 +1,54 @@
+* {
+  font-family: "Roboto Flex", sans-serif !important;
+}
+
+.page-heading {
+  font-weight: 700 !important;
+}
+
+/*Nav*/
+nav .active {
+  border-bottom: 3px solid #9B7EBD;
+}
+
+.navbar {
+  position: sticky !important;
+}
+
+/*Banner title*/
+.banner-title {
+  font-size: 4rem;
+}
+
+/*Course*/
+.about-banner {
+  border: 3px dashed white !important;
+  border-radius: 10px !important;
+}
+
+.course-card {
+  border-radius: 1rem 1rem !important;
+}
+
+.course-img {
+  border-radius: 2rem 2rem !important;
+}
+
+/*FAQ*/
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: inherit !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+
+}
+
+/*faq-btn*/
+@media (max-width:683px) {
+  .faq-btn {
+    margin-left: 8rem!important;
+  }
+}

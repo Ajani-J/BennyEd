@@ -1,0 +1,21 @@
+* {
+  font-family: "Roboto Flex", sans-serif !important;
+}
+
+.page-heading {
+  font-weight: 700 !important;
+}
+
+/*Nav*/
+nav .active {
+  border-bottom: 3px solid #9B7EBD;
+}
+
+.navbar {
+  position: sticky !important;
+}
+
+/*Banner title*/
+.banner-title {
+  font-size: 4rem;
+}

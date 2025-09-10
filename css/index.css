@@ -1,0 +1,111 @@
+* {
+  font-family: "Roboto Flex", sans-serif !important;
+}
+
+.page-heading {
+  font-weight: 700 !important;
+}
+
+.start-btn {
+  border-radius: 1rem !important;
+}
+/*Nav*/
+nav .active{
+  border-bottom: 3px solid #9B7EBD;
+}
+.navbar{
+  position: sticky!important;
+}
+/*Category sticky scroll*/
+.cat-heading {
+  position: sticky;
+  top: 0;
+}
+.cat-para {
+  position: sticky;
+  top: 7rem;
+}
+.cat-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 40px; */
+  /* margin-bottom: 60px; */
+  height: 300px;
+  font-size: 28px;
+  position: sticky;
+  /* Leaves space at the top */
+  z-index: 2;
+}
+.cat-card1 {
+  top: 12rem;
+}
+.cat-card2 {
+  top: 14rem;
+}
+.cat-card3 {
+  top: 16rem;
+}
+.cat-card4 {
+  top: 18rem !important;
+}
+.spacer {
+  margin-bottom: 16rem !important;
+}
+/*Course card*/
+.course-card{
+  border-radius:1rem 1rem;
+}
+.course-img{
+   border-radius:2rem 2rem!important;
+}
+/*review card*/
+.review-card{
+  border-radius:1rem 1rem;
+}
+.review-img{
+  border-radius:50%!important;
+}
+.mentor-perks::marker{
+ color:#9B7EBD;
+}
+.subscribe-container{
+  border-radius: 8rem 0 8rem 0;
+}
+.contact-btn{
+  border-radius: 1rem;
+}
+.subscribe-input{
+  border-radius: 50rem;
+}
+.subscribe-btn{
+  color: #9B7EBD;
+  border-radius: 2rem;
+}
+/* category-scroll media */
+@media(min-width:991px){
+  .category-scroll{
+    display: block;
+  }
+  .category-sm-scroll{
+    display: none;
+  }
+}
+@media (max-width:991px){
+  .category-scroll{
+    display:none;
+  }
+  .category-sm-scroll{
+    display:block;
+  }
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit !important;
+    box-shadow: none !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+    
+}

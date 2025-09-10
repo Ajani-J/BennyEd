@@ -1,0 +1,90 @@
+* {
+  font-family: "Roboto Flex", sans-serif !important;
+}
+.page-heading {
+  font-weight: 700 !important;
+}
+/*Nav*/
+nav .active{
+  border-bottom: 3px solid #9B7EBD;
+}
+.navbar{
+  position: sticky!important;
+}
+/*Banner title*/
+.banner-title{
+    font-size:4rem;
+}
+.about-banner{
+    border: 3px dashed white!important;
+    border-radius: 10px!important;
+}
+/*details*/
+.about-details-title{
+    font-size: 3rem;
+}
+.about-list li{
+    list-style-type: none;
+}
+.banner-img{
+    border-radius: 2rem!important;
+}
+.journey-title{
+    font-size: 3rem!important;
+}
+/*Vision*/
+@media(max-width:576px){
+    .display-sm-none{
+        display: none;
+    }
+}
+/*review card*/
+.review-card{
+  border-radius:1rem 1rem;
+}
+.review-img{
+  border-radius:50%!important;
+}
+.mentor-perks::marker{
+ color:#9B7EBD;
+}
+.subscribe-container{
+  border-radius: 8rem 0 8rem 0;
+}
+.contact-btn{
+  border-radius: 1rem;
+}
+.subscribe-input{
+  border-radius: 50rem;
+}
+.subscribe-btn{
+  color: #9B7EBD;
+  border-radius: 2rem;
+}
+/* category-scroll media */
+@media(min-width:991px){
+  .category-scroll{
+    display: block;
+  }
+  .category-sm-scroll{
+    display: none;
+  }
+}
+@media (max-width:991px){
+  .category-scroll{
+    display:none;
+  }
+  .category-sm-scroll{
+    display:block;
+  }
+}
+/*FAQ*/
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit !important;
+    box-shadow: none !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+    
+}
