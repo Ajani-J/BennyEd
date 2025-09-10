@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!--Bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--css link-->
+    <link rel="stylesheet" href="/css/index.css">
+    <!--Animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand ms-lg-5 mt-1"><img src="/images/index/logo.png" alt="ed_logo"
+                        width="50%"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContents">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navContents">
+                    <ul class="navbar-nav gap-5 ms-lg-auto me-sm-right">
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link text-primary ">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="/pages/about_us.html" class="nav-link text-primary ">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a href="" class="nav-link dropdown-toggle text-primary active"
+                                data-bs-toggle="dropdown">Course</a>
+                            <ul class="dropdown-menu" id="courseDropdown">
+                                <li class="dropdown-item text-primary "><a href="/pages/course_catalog.html">Course
+                                        Catalog</a></li>
+                                <li class="dropdown-item text-primary"><a href=""></a>Course Details</li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="" class="nav-link text-primary">Prices</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle text-primary" data-bs-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item text-primary">FAQ</li>
+                                <li class="dropdown-item text-primary">careers</li>
+                                <li class="dropdown-item text-primary">News</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/pages/contact_us.html" class="nav-link text-primary">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/pages/courses.html"
+                                class="nav-link  btn btn-primary text-light border-0 me-5 px-4 rounded-pill shadow-sm">Sign
+                                Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <section class="bg-primary " style="height: 87vh;" >
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-3 mt-5">
+                    <div class="card p-3 mt-5" >
+                        <h3 class="text-center text-primary fw-bold h2">BennyEd</h3>
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text mt-4"><i class="bi bi-person-fill"></i></span>
+                            <input type="text" class="form-control mt-4" placeholder="Username">
+                        </div>
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text mt-3"><i class="bi bi-lock-fill"></i></span>
+                            <input type="text" class="form-control mt-3" placeholder="Password">
+                        </div>
+                        <a href="/pages/course_catalog.html" class="btn btn-primary mt-4 border-0">Sign in</a>
+                        <p class="text-center mt-4">Do not have an account? <a href="/pages/signup.html" class="text-primary">Signup</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
