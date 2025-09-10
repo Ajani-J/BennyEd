@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BennyEd</title>
+    <link rel="icon" type="image/png" href="./images/index/logoCopy.png">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!--Animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Start of header-->
+    <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid px-lg-5">
+            <!-- Logo -->
+            <a href="#" class="navbar-brand">
+                <img src="./images/index/logo.png" alt="ed_logo" style="max-width: 200px;" class="img-fluid">
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContents"
+                aria-controls="navContents" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav links -->
+            <div class="collapse navbar-collapse" id="navContents">
+                <ul class="navbar-nav ms-auto gap-lg-4 gap-3 align-items-lg-center">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-primary active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/about_us.html" class="nav-link text-primary">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle text-primary" data-bs-toggle="dropdown">Course</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./pages/course_catalog.html" class="dropdown-item">All Course</a></li>
+                            <li><a href="#" class="dropdown-item">Course Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle text-primary" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">FAQ</a></li>
+                            <li><a href="#" class="dropdown-item">Careers</a></li>
+                            <li><a href="#" class="dropdown-item">News</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/contact_us.html" class="nav-link text-primary">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-bs-toggle="modal" data-bs-target="#loginModa"
+                            class="btn btn-primary text-light border-0 px-4 rounded-pill shadow-sm">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModa" tabindex="-1" aria-labelledby="loginModaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header h2">
+                    Login
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput"
+                                placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <button class="btn btn-primary rounded-pill w-100" type="submit">Login</button>
+                        <p class="text-center mt-3">Don't have an account? <a href="#" class="text-primary">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!--End of header-->
+
+    <!--Start of section-->
+    <section>
+        <!--Intro Banner-->
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-6 mt-5">
+                    <h1 class=" mt-5 page-heading ms-lg-5" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <span style="font-size: 4rem;">Unlock your future with</span><br>
+                        <span style="font-size: 4rem;" class="text-primary">Online learning</span>
+                    </h1>
+                    <p class="mt-3 h5 ms-lg-5" data-aos="zoom-in-right" data-aos-duration="2000">Discover a wide range
+                        of expert-led courses tailored to your personal and
+                        professional growth.</p>
+                    <a href="#" class="btn btn-primary shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5"
+                        data-aos="zoom-in-right" data-aos-duration="2000">Browse
+                        Courses</a>
+                    <a href="#" class="btn btn-outline-primary  shadow-none  mt-2 px-5 py-2 start-btn border-1 ms-4"
+                        data-aos="zoom-in-right" data-aos-duration="2000">Learn
+                        More</a>
+                </div>
+                <div class="col-lg-6 ">
+                    <img src="./images/index/banner image.png" alt="" class="img-fluid ms-lg-5 mt-4"
+                        data-aos="zoom-in-left" data-aos-duration="2000">
+                </div>
+            </div>
+        </div>
+        <!--End of intro banner-->
+
+
+        <!--Start of Brands-->
+        <div class="container-fluid bg-primary">
+            <div class="row">
+                <div class="col-lg-12 px-5 py-3">
+                    <img src="./images/index/brand1.png" alt="" class="img-fluid " width="20%">
+                    <img src="./images/index/brand2.png" alt="" class="img-fluid " width="20%">
+                    <img src="./images/index/brand3.png" alt="" class="img-fluid" width="20%">
+                    <img src="./images/index/brand4.png" alt="" class="img-fluid " width="15%">
+                    <img src="./images/index/brand5.png" alt="" class="img-fluid" width="15%">
+                </div>
+            </div>
+        </div>
+        <!--End of brand -->
+
+
+        <!--Start of Benefits-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div>
+                        <img src="./images/index/bannerimg.png" class="img-fluid mt-4" alt="" data-aos="fade-up">
+                    </div>
+
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <h2 class="page-heading "><span class="text-primary">Benefits </span>From Our Online Learning</h2>
+                    <div class="row mt-4">
+                        <div class="col-lg-3 mt-5" data-aos="fade-up">
+                            <i
+                                class="bi bi-mortarboard-fill text-center fs-3 mt-3 ms-3 bg-violet p-3 rounded-pill text-light"></i>
+                        </div>
+                        <div class="col-lg-9" data-aos="fade-up">
+                            <h3 class="page-heading mt-3">Online Degrees</h3>
+                            <p>Earn accredited degrees from the comfort of your home, opening doors to a worid of
+                                possibilities</p>
+                        </div>
+                        <div class="col-lg-3 mt-5" data-aos="fade-up">
+                            <i
+                                class="bi bi-book-fill text-center fs-3 mt-3 ms-3 bg-pink p-3 rounded-pill text-light"></i>
+                        </div>
+                        <div class="col-lg-9" data-aos="fade-up">
+                            <h3 class="page-heading mt-3">Short Courses</h3>
+                            <p>Enhance your skills with our concise and focused short courses, designed for quick and
+                                effective learning</p>
+                        </div>
+                        <div class="col-lg-3 mt-5" data-aos="fade-up">
+                            <i
+                                class="bi bi-person-fill text-center fs-2 mt-3 ms-3 bg-violet p-3 rounded-pill text-light"></i>
+                        </div>
+                        <div class="col-lg-9 " data-aos="fade-up">
+                            <h3 class="page-heading mt-3">Training From Experts</h3>
+                            <p>Immerse yourself in knowledge with industry experts guiding you through hands-on
+                                experience</p>
+                        </div>
+                        <div class="col-lg-3 mt-5" data-aos="fade-up">
+                            <i class="bi bi-play-fill text-center fs-2 ms-3 bg-pink p-3 rounded-pill text-light"></i>
+                        </div>
+                        <div class="col-lg-9" data-aos="fade-up">
+                            <h3 class="page-heading mt-3">1k+ video Courses</h3>
+                            <p class="mt-3 ">Dive into a vast library of over 1k video courses covering many subjects,
+                                offecring a visual learning experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of benifits-->
+
+
+        <!--Popular courses-->
+        <div class="container-fluid bg-primary mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Course heading-->
+                    <div class="row">
+                        <div class="col-lg-5"></div>
+                        <div class="col-lg-2 mt-5">
+                            <p class="bg-primary px-2 py-1 text-center rounded-pill text-light mt-2 shadow-lg">Popular
+                                Courses</p>
+                        </div>
+                        <div class="col-lg-5"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="h1 text-center mt-3 page-heading cat-para">Our Popular <span
+                                    class="text-light">Courses</span></p>
+                        </div>
+                    </div>
+                    <!--End of course heading-->
+                    <div class="container">
+                        <div class="row">
+                            <!--Web Designing-->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card course-card my-5">
+                                    <img src="./images/index/card1.jpg" alt="" class="card-img-top p-2  course-img">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6">
+                                                <span class="badge bg-purple">Web Design</span>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6">
+                                                <span class="badge bg-primary float-sm-end "> <i
+                                                        class="bi bi-star-fill text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                        <h3 class="card-title mt-3 page-heading">Web Design & Development</h3>
+                                        <p><span><i class="bi bi-book text-primary me-2"></i>25 Classes</span>
+                                            <span><i class="bi bi-person text-primary ms-3"></i></span>185 Students
+                                        </p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--UI UX designing-->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card course-card my-5">
+                                    <img src="./images/index/card2.jpeg" alt="" class="card-img-top p-2  course-img"
+                                        height="200px">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6">
+                                                <span class="badge bg-purple">UI/Ux Design</span>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 ">
+                                                <span class="badge bg-primary  float-sm-end"><i
+                                                        class="bi bi-star-fill text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                        <h3 class="card-title mt-3 page-heading">Wire Framing & Prototyping</h3>
+                                        <p><span><i class="bi bi-book text-primary me-2"></i>8 Classes</span>
+                                            <span><i class="bi bi-person text-primary ms-3"></i></span>400 Students
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Data Science-->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card course-card my-5">
+                                    <img src="./images/index/card3.jpeg" alt="" class="card-img-top p-2  course-img"
+                                        height="200px">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6">
+                                                <span class="badge bg-purple">Data Science</span>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 ">
+                                                <span class="badge bg-primary  float-sm-end"><i
+                                                        class="bi bi-star-fill text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                        <h3 class="card-title mt-3 page-heading">Python for Data Science</h3>
+                                        <p><span><i class="bi bi-book text-primary me-2"></i>18 Classes</span>
+                                            <span><i class="bi bi-person text-primary ms-3"></i></span>160 Students
+                                        </p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--SQL-->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card course-card my-5">
+                                    <img src="./images/index/card4.jpg" alt="" class="card-img-top p-2  course-img"
+                                        height="200px">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6">
+                                                <span class="badge bg-purple ">SQL </span>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6">
+                                                <span class="badge bg-primary float-sm-end"><i
+                                                        class="bi bi-star-fill text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                        <h3 class="card-title mt-3 page-heading">SQL for Data Science</h3>
+                                        <p><span><i class="bi bi-book text-primary me-2"></i>20 Classes</span>
+                                            <span><i class="bi bi-person text-primary ms-3"></i></span>170 Students
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Categories-->
+        <div class="container category-scroll">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row cat-heading">
+                        <div class="col-lg-5"></div>
+                        <div class="col-lg-2 mt-5">
+                            <p class="bg-primary px-2 py-1 text-center rounded-pill text-light ">Top Categories</p>
+                        </div>
+                        <div class="col-lg-5"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="h1 text-center mt-3 page-heading cat-para">Browse Course With <span
+                                    class="text-primary">Top Categories</span></p>
+                            <!--Card1 for sticky scroll-->
+                            <div class="card cat-card cat-card1 mt-4 bg-violet">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h2 class="page-heading fw-1 ps-5 pt-5">Carative design and media</h2>
+                                        <p class="ps-5 pt-2">Unleash your creative potential with Carative Design and
+                                            Media.</p>
+                                        <a href="#"
+                                            class="btn btn-light  shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5 cat-btn">Explore
+                                            Category</a>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="./images/index/creativeDesign.png" alt="creative design and media"
+                                            class="mt-4 ms-5" width="60% ">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--card2 for sticky scroll-->
+                            <div class="card cat-card cat-card2 mt-5 bg-laventer">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h2 class="page-heading fw-1 ps-5 pt-5">Data Science and Analytics</h2>
+                                        <p class="ps-5 pt-2">Transform vast amounts of raw data into meaningful insights
+                                            that drive strategic decisions and innovation.</p>
+                                        <a href="#"
+                                            class="btn btn-light  shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5 cat-btn">Explore
+                                            Category</a>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="./images/index/dataScientis.png" alt="creative design and media"
+                                            class="mt-4 ms-5" width="60% ">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--card3 for sticky scroll-->
+                            <div class="card cat-card cat-card3 mt-5 bg-purple">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h2 class="page-heading fw-1 ps-5 pt-5">Digital Literacy</h2>
+                                        <p class="ps-5 pt-2">Build a strong foundation by mastering the core skills of
+                                            today’s digital world.</p>
+                                        <a href="#"
+                                            class="btn btn-light  text-black shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5 cat-btn">Explore
+                                            Category</a>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="./images/index/digitalLiteracy.png" alt="digital literacy"
+                                            class="mt-4 ms-5" width="60% ">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card4 for sticky scroll-->
+                            <div class="card cat-card cat-card4 mt-5 bg-pink">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h2 class="page-heading fw-1 ps-5 pt-5">Programming and Coding</h2>
+                                        <p class="ps-5 pt-2">Build the future with coding — turn ideas into reality
+                                            through the power of technology</p>
+                                        <a href="#"
+                                            class="btn btn-light  shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5 cat-btn">Explore
+                                            Category</a>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="./images/index/programming.png" alt="prigramming and coding"
+                                            class="mt-3 ms-5" width="65% ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="spacer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of sticky scroll only for lg-->
+
+        <!--Category sm scroll-->
+        <div class="container category-sm-scroll">
+            <div class="row ">
+                <div class="col-sm-5"></div>
+                <div class="col-lg-2 mt-5">
+                    <p class="bg-primary px-2 py-1 text-center rounded-pill text-light ">Top Categories</p>
+                </div>
+                <div class="col-lg-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="h1 text-center mt-3 page-heading cat-para">Browse Course With <span
+                            class="text-primary">Top Categories</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-md-12 col-sm-12">
+                    <div class="card bg-violet">
+                        <div class="card-header bg-violet mt-5">
+                            <h2 class="page-heading fw-1 ps-5 pt-3">Carative design and media</h2>
+                            <p class="ps-5 pt-2">Unleash your creative potential with Carative Design and
+                                Media.</p>
+                            <a href="#"
+                                class="btn btn-light  shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5 cat-btn">Explore
+                                Category
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <img src="./images/index/creativeDesign.png" alt="creative design and media"
+                                class="mt-4 ms-5" width="60% ">
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-12 col-sm-12">
+                    <div class="card mt-5 bg-laventer">
+                        <div class="class-header bg-lavender">
+                            <h2 class="page-heading fw-1 ps-5 pt-5">Data Science and Analytics</h2>
+                            <p class="ps-5 pt-2">Transform vast amounts of raw data into meaningful insights
+                                that drive strategic decisions and innovation.</p>
+                            <a href="#"
+                                class="btn btn-light  shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5 cat-btn">Explore
+                                Category</a>
+                        </div>
+                        <div class="card-body">
+                            <img src="./images/index/dataScientis.png" alt="creative design and media" class="mt-4 ms-5"
+                                width="60% ">
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-12 col-sm-12">
+                    <div class="card bg-purple mt-5">
+                        <div class="card-header bg-purple">
+                            <h2 class="page-heading fw-1 ps-5 pt-5">Digital Literacy</h2>
+                            <p class="ps-5 pt-2">Build a strong foundation by mastering the core skills of
+                                today’s digital world.</p>
+                            <a href="#"
+                                class="btn btn-light  text-black shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5 cat-btn">Explore
+                                Category</a>
+                        </div>
+                        <div class="card-body">
+                            <img src="./images/index/digitalLiteracy.png" alt="digital literacy" class="mt-4 ms-5"
+                                width="60% ">
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-12 col-sm-12">
+                    <div class="card mt-5 bg-pink">
+                        <div class="card-header bg-pink">
+                            <h2 class="page-heading fw-1 ps-5 pt-5">Programming and Coding</h2>
+                            <p class="ps-5 pt-2">Build the future with coding — turn ideas into reality
+                                through the power of technology</p>
+                            <a href="#"
+                                class="btn btn-light  shadow-none border-0 mt-2 px-4 py-2 start-btn ms-5 cat-btn">Explore
+                                Category</a>
+
+                        </div>
+                        <div class="card-body">
+                            <img src="./images/index/programming.png" alt="prigramming and coding" class="mt-3 ms-5"
+                                width="65% ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of category for sm-->
+
+
+        <!--Mentor section-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mt-5 ps-5">
+                    <div class="page-heading h1 mt-5">If you are a Certified Teacher Then<span class="text-primary">
+                            Become An Instructor </span></div>
+                    <p>Unlock the opportunity to inspire and educate by joining our team of instructors. If you're a
+                        certified teacher, elevate your impact and share your experties with learners worldwide.</p>
+                    <h3 class="page-heading">Enjoy many Perks</h3>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li class="mentor-perks">Global Impact</li>
+                                <li class="mentor-perks">Flexible Schedule</li>
+                                <li class="mentor-perks">Innovative Teaching Tools</li>
+                                <li class="mentor-perks">Recognition And Reputation</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li class="mentor-perks">Creative Freedom</li>
+                                <li class="mentor-perks">Monetize Your Experties</li>
+                                <li class="mentor-perks">Professional Development</li>
+                                <li class="mentor-perks">Networking Opportunities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="" class="btn btn-primary ms-2 rounded-pill px-4 border-0 shadow-none">Become an
+                        Instructor</a>
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <img src="./images/index/mentol.png" alt="mentor" class="img-fluid h-75 mt-5 ms-5 ps-5 ">
+                </div>
+            </div>
+        </div>
+        <!--End of mentor section-->
+
+
+        <!--FAQ-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-4"></div>
+                <div class="col-lg-1 col-md-2 col-sm-4 ms-lg-5">
+                    <p class="bg-primary  text-center rounded-pill text-light mt-2 ">FAQ</p>
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="h1 text-center page-heading">
+                        Frequently Asked Questions:
+                    </div>
+                    <div class="h1 text-center page-heading">
+                        We're Here to Help
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4  col-md-4 "></div>
+                        <div class="col-lg-3 col-md-4 col-sm-12 ms-lg-5   ms-2 col-md-6 ">
+                            <button type="button" class="btn btn-primary rounded-pill ms-lg-5 ms-sm-5">Have Any
+                                Questions?</button>
+                        </div>
+                        <div class="col-lg-4 col-md-5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-lg-6">
+                    <div class="card ">
+                        <div class="accordion ">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header ">
+                                    <button type="button" class="accordion-button btn-white"
+                                        data-bs-target="#collapseOne" data-bs-toggle="collapse"> What types of courses
+                                        do you offer?</button>
+                                </h2>
+                                <div class="accordion-collapse collapse " id="collapseOne">
+                                    <div class="accordion-body">
+                                        <p>We offer a wide range of courses across various fields such as Business &
+                                            Management, Technology & Coding, Design & Creative Arts, and Finance &
+                                            Accounting. Our courses are designed for learners at different levels, from
+                                            beginners to advanced professionals.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button type="button" class="accordion-button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo">How do I enroll in a course?</button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p>Enrolling in a course is simple! Just sign up for an account, browse our
+                                            course catalog, and select the course you’re interested in. Once you’ve
+                                            completed the payment process, you’ll gain immediate access to the course
+                                            materials.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button type="button" class="accordion-button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree">Are the courses self-paced or
+                                        instructor-led?</button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p>Our platform offers both self-paced courses and instructor-led courses.
+                                            Self-paced courses allow you to learn at your own speed, while
+                                            instructor-led courses provide scheduled lessons, live sessions, and
+                                            personal feedback.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <div class="accordion-header h2">
+                                    <button type="button" class="accordion-button" data-bs-target="#collapseFour"
+                                        data-bs-toggle="collapse">
+                                        Do I receive a certificate after completing a course?
+                                    </button>
+                                </div>
+                                <div class="accordion-collapse collapse" id="collapseFour">
+                                    <div class="accordion-body">
+                                        <p>Yes, upon successfully completing a course, you will receive a certificate of
+                                            completion that can be shared on your LinkedIn profile, resume, or with
+                                            potential employers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header h2">
+                                    <button type="button" class="accordion-button" data-bs-target="#collapseFive"
+                                        data-bs-toggle="collapse">
+                                        What if I have technical issues during a course?
+                                    </button>
+                                </div>
+                                <div class="accordion-collapse collapse" id="collapseFive">
+                                    <div class="accordion-body">
+                                        <p>If you encounter any technical issues, you can reach out to our support team
+                                            via email or live chat. We are available 24/7 to help resolve any problems
+                                            quickly so that your learning experience is uninterrupted.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header h2">
+                                    <button type="button" class="accordion-button" data-bs-target="#collapseSix"
+                                        data-bs-toggle="collapse">
+                                        Can I access the course materials after completing the course?
+                                    </button>
+                                </div>
+                                <div class="accordion-collapse collapse" id="collapseSix">
+                                    <div class="accordion-body">
+                                        <p>Yes, once you’ve completed a course, you will have lifetime access to the
+                                            course materials, including videos, assignments, and resources, so you can
+                                            revisit them anytime for reference or review.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of FAQ-->
+
+        <!--Students Testimonials-->
+        <div class="container-fluid bg-primary">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row mt-4">
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                            <h3 class="page-heading text-center text-light fs-1">Student's Testimonials</h3>
+                            <p class="text-center mt-4 text-light">Here's what our students have say about their
+                                transformative learning experience:Real stories,reals growth. Discover firsthand the
+                                impact our courses have had on their lives.</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row mt-3 mb-5">
+                                                <div class="col-lg-4">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review1.png" alt=""
+                                                                    class="img-fluid review-img p-2 ">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Alexa
+                                                                    Rodriguez</h6>
+                                                                <small class="small mb-0">Web Developer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Enrolling in course at this learning platform was a
+                                                            game-changer for me. Absolutely transformative experience!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review2.png" alt=""
+                                                                    class="img-fluid review-img p-2 ">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Emily
+                                                                    Chen</h6>
+                                                                <small class="small mb-0">UI/UX Designer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Expectional courses! The practical insights and flexible
+                                                            learning structure have been instrumental in my professional
+                                                            growth.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 mb-3">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review3.png" alt=""
+                                                                    class="img-fluid review-img p-2">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Joena
+                                                                    Johnson</h6>
+                                                                <small class="small mb-0">Web Developer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Highly recommend! The personalized feedback and real-world
+                                                            application in the courses have elevated my understanding.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <div class="row mt-3 mb-5">
+                                                <div class="col-lg-4">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review4.png" alt=""
+                                                                    class="img-fluid review-img p-2 ">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Kalix
+                                                                </h6>
+                                                                <small class="small mb-0">Web Developer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Enrolling in course at this learning platform was a
+                                                            game-changer for me. Absolutely transformative experience!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review5.png" alt=""
+                                                                    class="img-fluid review-img p-2 ">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Thomas
+                                                                    Shelby
+                                                                </h6>
+                                                                <small class="small mb-0">UI/UX Designer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Expectional courses! The practical insights and flexible
+                                                            learning structure have been instrumental in my professional
+                                                            growth.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 mb-3">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review6.png" alt=""
+                                                                    class="img-fluid review-img p-2">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Luna
+                                                                    valeria</h6>
+                                                                <small class="small mb-0">Web Developer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Highly recommend! The personalized feedback and real-world
+                                                            application in the courses have elevated my understanding.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <div class="row mt-3 mb-5">
+                                                <div class="col-lg-4">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review7.png" alt=""
+                                                                    class="img-fluid review-img p-2 ">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Emma
+                                                                    Watson</h6>
+                                                                <small class="small mb-0">Web Developer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Enrolling in course at this learning platform was a
+                                                            game-changer for me. Absolutely transformative experience!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review8.png" alt=""
+                                                                    class="img-fluid review-img p-2 ">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Charlize
+                                                                    Theron</h6>
+                                                                <small class="small mb-0">UI/UX Designer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Expectional courses! The practical insights and flexible
+                                                            learning structure have been instrumental in my professional
+                                                            growth.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 mb-3">
+                                                    <div class="card bg-light px-3 py-2  review-card mt-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <img src="./images/index/review9.png" alt=""
+                                                                    class="img-fluid review-img p-2">
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <h6 class="page-heading text-primary mb-0 mt-3">Kate
+                                                                    Winslet </h6>
+                                                                <small class="small mb-0">Web Developer</small>
+                                                                <p class="mt-0 small"><i
+                                                                        class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                    <i class="bi bi-star-fill text-warning"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text mt-2">
+                                                            Highly recommend! The personalized feedback and real-world
+                                                            application in the courses have elevated my understanding.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of student testimonials-->
+
+            <!-- Subscribe card -->
+            <div class="row bg-light subscribe-container mt-5 p-5">
+                <div class="col-lg-12 mt-5  pb-5">
+                    <div class="h1 text-center text-primary page-heading">Ready to start learning? Contact us!</div>
+                    <p class="text-center text-primary">Discover a wide range of expert-led courses tailored to your
+                        personal and professional growth.</p>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5"></div>
+                        <div class="col-lg-5 col-md-5 col-sm-5">
+                            <button class="bg-primary text-light border-0 px-3 py-1 contact-btn">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of subscriber card-->
+
+            <footer>
+                <!--details-->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6  p-4 pb-0">
+                                <img src="./images/index/logo-white.png" class="img-fluid ms-3 " width="40%" alt="logo">
+                                <p class="text-light ms-5">Empowering learners through innovative digital education.</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6  text-end text-white fs-4 p-5 pb-0">
+                                <i class="bi bi-facebook me-3"></i>
+                                <i class="bi bi-linkedin me-3"></i>
+                                <i class="bi bi-twitter me-3"></i>
+                                <i class="bi bi-instagram me-3"></i>
+                            </div>
+                            <hr class="bg-light">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12  mt-4">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-12 ">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12  ps-5 text-white">
+                                        <h5 class="page-heading mt-sm-5">Our Address</h5>
+                                        <p><i class="bi bi-geo-alt-fill"></i>
+                                            123 Chennai</p>
+                                        <p><i class="bi bi-envelope"></i>
+                                            hello@bennyed.com</p>
+                                        <p><i class="bi bi-telephone"></i>
+                                            +91 7589694857</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12  ps-5 text-white">
+                                        <h5 class="page-heading mt-sm-5">Quice Links</h5>
+                                        <p>Home</p>
+                                        <p>About Us</p>
+                                        <p>Courses</p>
+                                        <p>FAQ</p>
+                                        <p>Contact</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12  ps-5 text-white">
+                                        <h5 class="page-heading mt-sm-5">Courses Category</h5>
+                                        <p>Business Management</p>
+                                        <p>Programming</p>
+                                        <p>Creative Arts</p>
+                                        <p>Digital Strategy</p>
+                                        <p>Accounting</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md- ">
+                                <h5 class="page-heading mt-sm-5 text-light">Newsletter</h5>
+                                <p class="text-light">Subscribe to our newsletter for a weekly dose of news, updates, and exclusive offers.
+                                </p>
+                                <div class="newsletter-form">
+                                    <input type="email" class="form-control shadow-none" placeholder="Your email">
+                                    <button class="btn btn-outline-light  mt-4">SUBSCRIBE</button>
+                                </div>
+                                <div class="social-icons">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="bg-light">
+                        <!--Copy rights-->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p class="text-white ps-5">Copyright © 2024 BennyEd All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+
+            </footer>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
